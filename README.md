@@ -2,11 +2,17 @@
 
 In our app, The Meme App, users can create personalized memes by selecting from popular options and adding custom top and bottom text through our intuitive interface.
 
+
+
 Our WireFrame:
 ![work on repo](https://github.com/passtheaudzcord/Phase-1-meme-maker/assets/170898752/c3ea5373-3db4-44ae-902d-64ce854ffbf3)
 
+
+
 Our User Story:
 ![User Story](https://github.com/passtheaudzcord/Phase-1-meme-maker/assets/170898752/03173023-0516-4f8b-9328-918020db43ca)
+
+
 
 The API we will be using to grab memes for our app is https://apimeme.com/?ref=apilist.fun
 
