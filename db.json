@@ -1,0 +1,67 @@
+{
+
+"memes": [
+
+    {
+      "id": "1",
+      "name": "South park meme",
+      "image": "/create/Aaaaaand-Its-Gone?page=3",
+      "": ""
+    },
+    {
+        "id": "2",
+        "name": "Advice Yoda",
+        "image": "/create/Advice-Yoda?page=3",
+        "": ""
+    },
+    {
+        "id": "3",
+        "name": "Afraid To Ask Andy",
+        "image": "/create/Afraid-To-Ask-Andy-Closeup?page=3",
+        "": ""
+    },
+    {
+        "id": "4",
+        "name": "Obama Smirk",
+        "image": "/create/2nd-Term-Obama?page=3",
+        "": ""
+    },
+    {
+        "id": "5",
+        "name": "Back In My Day",
+        "image": "/create/Back-In-My-Day?page=3",
+        "": ""
+    },
+    {
+        "id": "6",
+        "name": "Chicken",
+        "image": "/create/Anti-Joke-Chicken?page=3",
+        "": ""
+    },
+    {
+        "id": "7",
+        "name": "Triple Chin Seal",
+        "image": "/create/Awkward-Moment-Sealion?page=3",
+        "": ""
+    },
+    {
+        "id": "8",
+        "name": "Lonely Bear",
+        "image": "/create/Bad-Luck-Bear?page=3",
+        "": ""
+    },
+    {
+        "id": "9",
+        "name": "Smoking Owl",
+        "image": "/create/Art-Student-Owl?page=3",
+        "": ""
+    },
+    {
+        "id": "10",
+        "name": "Arthur Fist",
+        "image": "/create/Arthur-Fist?page=3",
+        "": ""
+    }
+
+]
+}
