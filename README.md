@@ -1,36 +1,40 @@
-# Phase-1-meme-maker
+# Phase-1-Meme-Maker-
+Work on repo a one sentence description of your app:
 
 In our app, The Meme App, users can create personalized memes by selecting from popular options and adding custom top and bottom text through our intuitive interface.
 
 
-
-Our WireFrame:
-![work on repo](https://github.com/passtheaudzcord/Phase-1-meme-maker/assets/170898752/c3ea5373-3db4-44ae-902d-64ce854ffbf3)
-
-
-
-Our User Story:
-![User Story](https://github.com/passtheaudzcord/Phase-1-meme-maker/assets/170898752/03173023-0516-4f8b-9328-918020db43ca)
+A SCREENSHOT of your wireframe:
+![The Meme App](https://github.com/Oscar-/Phase-1-Meme-Maker-/assets/7502362/50b36379-a8f1-4966-90b7-d55f8168b3e5)
 
 
 
-The API we will be using to grab memes for our app is https://apimeme.com/?ref=apilist.fun
+User stories (core deliverables - you have to complete these to pass):
+![User Stories ](https://github.com/Oscar-/Phase-1-Meme-Maker-/assets/7502362/d5c2ecf6-29ad-4e06-b917-879c91493360)
 
-Three unique event listeners we will be using are:
-- We will be using ‘submit’ for users so they are able to submit text onto the images and        submit their own images. We will also be using ‘submit’ for our generate option and our download option.
-- We will be using ‘click’ for users to select memes from our preview options, or they can select from our dropdown menu with all memes listed. 
+
+An example of your db.json or what API you are going to use:
+https://apimeme.com/?ref=apilist.fun
+
+
+What 3 unique event listeners you will use:
+Submit:
+-  We will be using ‘submit’ for users so they are able to submit text onto the images and        submit their own images. We will also be using ‘submit’ for our generate option and our download option.
+-  We will be using ‘click’ for users to select memes from our preview options, or they can select from our dropdown menu with all memes listed. 
 - We will be using ‘reset’ after the user creates the meme they want, so that the textboxes and image resets.
 
-We will be using array iteration to iterate over every meme from the meme api.
 
-Our three stretch goals are:
-- Add gifs 
-- Videos 
-- Let users add their own photos or videos
-
-  Our kanban board on Trello:
-![Kanban board](https://github.com/passtheaudzcord/Phase-1-meme-maker/assets/170898752/d4dcb32b-e43d-45f0-9252-db39683f6a95)
+How you will be using array iteration:
+- We will be using array iteration to iterate over every meme from the meme api.
 
 
-  
+Three stretch goals:
+- We would like for users to create memes using gifs sourced online.
+- We would like for users to create memes using their own videos or videos sourced online (example: youtube.com). 
+- We would like for users to create memes using their own photos and/or images. 
+
+
+
+A Kanban board: 
+![Trello Board ](https://github.com/Oscar-/Phase-1-Meme-Maker-/assets/7502362/ecfdd114-752e-4626-89b0-9f21c4031203)
 
