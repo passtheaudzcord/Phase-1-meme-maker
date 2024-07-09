@@ -1,24 +1,53 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }
 
 h1 {
     text-align: center;
+    color: white; 
+}
+
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRc5xMiyrbMCu9yFZRyTCJjuMchkilEWPaWdA&s");
+   
 }
 /* Add styles to create separation between div elements */
 
 /* General styles for all div elements */
 
-.top-text, .bottom-text {
-    position: relative;
-    float: right;
-  }
+.top-text,
+.bottom-text {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    color: white; 
+}
+
+.top-text {
+    top: 10px;
+    right: 600px;
+    position: absolute;
+}
+
+.bottom-text {
+    top: 400px;
+    right: 600px;
+    position: absolute;
+}
+
+#meme-placeholder {
+    position: relative; /* Ensure absolute positioning of text is relative to this container */
+}
 
 #meme-placeholder img {
     float: right;
     width: 500px;
     height: 500px;
+    padding-right: 450px;
+    display: block;
 }
+
 
 #drop-down, #top-text-box {
     display: block;
@@ -35,7 +64,7 @@ h1 {
 #meme-images {
     display: flex; /* align images */
     flex-wrap: wrap; /*  Wrap images in multiple rows */
-    margin-top: 400px; /* move images lower */
+    margin-top: 250px; /* move images lower */
 }
 
 
