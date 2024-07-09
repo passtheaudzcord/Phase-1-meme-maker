@@ -5,3 +5,44 @@
 h1 {
     text-align: center;
 }
+/* Add styles to create separation between div elements */
+
+/* General styles for all div elements */
+
+.top-text, .bottom-text {
+    position: relative;
+    float: right;
+  }
+
+#meme-placeholder img {
+    float: right;
+    width: 500px;
+    height: 500px;
+}
+
+#drop-down, #top-text-box {
+    display: block;
+    margin-bottom: 50px; /* Add space below each div */
+    padding: 10px; /* Adds padding inside each div */
+    width: 100%;
+}
+
+ #bottom-text-box {
+    margin-bottom: 50px; /* Add space below each div */
+    padding: 10px; /* Adds padding inside each div */
+}
+
+#meme-images {
+    display: flex; /* align images */
+    flex-wrap: wrap; /*  Wrap images in multiple rows */
+    margin-top: 400px; /* move images lower */
+}
+
+
+#meme-images img {
+    width: 321px; /* Set the width for each image */
+    height: 283px; /* Set the height for each image */
+    object-fit: cover; /* Maintain aspect ratio and cover the area */
+    margin: 10px; /* Add margin around each image */
+}
+
