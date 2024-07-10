@@ -59,6 +59,7 @@ fetch(`${memeApi}`)
       // append 'newMemeImage' to 'memeImages'
       newMemeImage.addEventListener('click', () => {
         memePlaceHolder.src = newMemeImage.src
+
      })
      memeImages.appendChild(newMemeImage)
 })
@@ -74,33 +75,38 @@ bottomTextBox.querySelector('input').addEventListener('input', () => {
     memePlaceHolder.nextElementSibling.nextElementSibling.textContent = bottomText; // Update bottom text
 });
 
-// create form event listener 
-// we want to allow users to submit their own 'https: images' (only)
-// get elements by ID 'url-input'
-
-// form.addEventListener('submit', (e) => {
-//     e.preventDefault()
-
-//     const imageUrl = urlInput.value.trim();
-
-//         if (imageUrl) {
-//             // Create new image element
-//             const newUrlImage = document.createElement('img');
-//             newUrlImage.src = imageUrl;
-//             newUrlImage.classList.add('custom-image'); // Optional: Add a class for styling
-
-//             // Append new image to memeImages container
-//             memeImages.appendChild(newUrlImage);
-
-//             // Clear input field
-//             urlInput.value = '';
-//         } else {
-//             alert('Please enter a valid image URL');
-//         }
-//     });
 
 })
 // create catch error 
 .catch((error) => {
   console.error('Error fetching data:', error);
 });
+
+// create form event listener 
+// we want to allow users to submit their own 'https: images' (only)
+// get elements by ID 'url-input'
+
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+
+    
+
+    const imageUrl = urlInput.value;
+
+        if (imageUrl.startsWith('https://')) {
+            // Create new image element
+            const newUrlImage = document.createElement('img');
+            newUrlImage.src = imageUrl;
+            // newUrlImage.classList.add('custom-image'); // Optional: Add a class for styling
+
+            memePlaceHolder.src = imageUrl 
+
+            // Append new image to memeImages container
+            memeImages.appendChild(newUrlImage);
+
+            // Clear input field
+            urlInput.value = '';
+        } else {
+            alert('Please enter a valid image URL');
+        }
+    });

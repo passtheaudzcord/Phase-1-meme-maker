@@ -1,11 +1,29 @@
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Marker Felt, fantasy;
     font-weight: bold;
 }
 
 h1 {
     text-align: center;
     color: white; 
+}
+
+
+#url-input {
+    color:white;
+}
+
+
+#drop-down {
+    color:white;
+}
+
+#top-text-box {
+    color:white;
+}
+
+#bottom-text-box {
+    color:white;
 }
 
 body {
