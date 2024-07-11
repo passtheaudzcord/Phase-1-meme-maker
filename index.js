@@ -97,8 +97,7 @@ form.addEventListener('submit', (e) => {
             // Create new image element
             const newUrlImage = document.createElement('img');
             newUrlImage.src = imageUrl;
-            // newUrlImage.classList.add('custom-image'); // Optional: Add a class for styling
-
+            
             memePlaceHolder.src = imageUrl 
 
             // Append new image to memeImages container
